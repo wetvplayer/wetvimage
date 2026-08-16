@@ -21,6 +21,44 @@ py sync_logos.py my_playlist.m3u output_playlist.m3u
 
 ---
 
+## Web Player & Stream Dashboard
+
+To visually preview your channel logos, filter by category, and play/test streams directly in your browser:
+
+```powershell
+py web_player_preview.py
+# Or preview a specific playlist:
+py web_player_preview.py sports_github.m3u
+```
+
+---
+
+## Free Movie & VOD Uploaders
+
+### Option A: Pixeldrain (Up to 10 GB per Movie)
+Fastest direct MP4 streaming links with high bandwidth:
+
+```powershell
+# Upload a single movie
+py upload_pixeldrain.py "C:\Movies\Inception.mp4" "Inception (2010)" "Sci-Fi"
+
+# Upload an entire folder of movies at once:
+py upload_pixeldrain.py --folder "C:\Movies" "Action Movies"
+```
+
+*(First time you run it, you can enter your free API key from [pixeldrain.com/user/api_keys](https://pixeldrain.com/user/api_keys))*
+
+---
+
+### Option B: Archive.org (Unlimited Permanent Storage)
+Permanent S3-backed movie storage:
+
+```powershell
+py upload_movies.py "C:\path\to\movie.mp4" "Spider-Man 2002" "Action Movies"
+```
+
+---
+
 ## Features
 
 1. **Auto-Discovery for Missing Logos**: Automatically searches channels with empty `tvg-logo=""` against 48,000+ indexed channels (from iptv-org) and fills them in.
