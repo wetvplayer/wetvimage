@@ -1,0 +1,143 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="0" tvg-logo="http://widget.ottplayer.tv/upictures/bc6944d8-8f9f-47d0-b13b-05557149a22d.png" group-title="All Sports",REKLAM
+https://aniatv.com/reklam/02.mp4
+#EXTINF:-1 tvg-id="0" tvg-logo="" group-title="All Sports",Матч ТВ 4K
+http://gwiuyvir.nexeraso.top/iptv/TZT2YUHDYRRDRM/31455/index.m3u8
+#EXTINF:-1 tvg-id="0" tvg-logo="http://widget.ottplayer.tv/upictures/d079c74c-9887-4b1e-afd9-b647fbf82e90.png" group-title="All Sports",beIN SPORTS 1 HD
+http://145.239.5.177/557a/index.m3u8
+#EXTINF:-1 tvg-id="0" tvg-logo="http://widget.ottplayer.tv/upictures/6089a360-b161-4a45-afb9-cd3701922151.png" group-title="All Sports",beIN SPORTS 2 HD
+http://145.239.5.177/558a/index.m3u8
+#EXTINF:-1 tvg-id="0" tvg-logo="http://widget.ottplayer.tv/upictures/a9a5c576-40eb-44d6-a0f0-af9e6702ef22.png" group-title="All Sports",beIN SPORTS 3 HD
+http://185.95.184.33:25461/live/120541/20364/4321.m3u8
+#EXTINF:-1 tvg-id="0" tvg-logo="http://widget.ottplayer.tv/upictures/c9d32238-b739-4d86-951a-2ab4a83b63a5.png" group-title="All Sports",beIN SPORTS 4 HD
+http://stream.mcquack.net/41/index.m3u8
+#EXTINF:-1 tvg-id="0" tvg-logo="http://widget.ottplayer.tv/upictures/6deb2699-b4e7-4bdc-92c5-935e619951f8.png" group-title="All Sports",beIN SPORTS 5 HD
+http://94.130.32.19:8080/sporttv5/index.m3u8
+#EXTINF:-1 tvg-id="0" tvg-logo="http://widget.ottplayer.tv/upictures/873ee0ff-a8d0-4460-9c1d-b79cbaa425f1.png" group-title="All Sports",beIN SPORTS 6 HD
+http://line.trxdnscloud.ru:80/live/1naebx0n1p/en1cy28eqj/1917219.ts
+#EXTINF:-1 tvg-id="0" tvg-logo="http://widget.ottplayer.tv/upictures/45da1242-4fa7-4246-a539-fc10b6f5b763.png" group-title="All Sports",Game Toon
+https://eclutch-live.akamaized.net/GameToonHD/master.m3u8
+#EXTINF:-1 tvg-id="0" tvg-logo="http://widget.ottplayer.tv/upictures/eced441f-1539-4ef6-abef-46347fa27db2.png" group-title="All Sports",BeinSports españa
+https://bein-esp-xumo.amagi.tv/playlistR1080p.m3u8
+#EXTINF:-1 tvg-id="0" tvg-logo="" group-title="All Sports",Combate HD
+http://ggrrth.htvsat.info:8880/bandy/123456aa/16703
+#EXTINF:-1 tvg-id="0" tvg-logo="" group-title="All Sports",NRT SPORTS
+https://live20.bozztv.com/giatv/giatv-NRT-SPORT/NRT-SPORT/chunks.m3u8
+#EXTINF:-1 tvg-id="0" tvg-logo="" group-title="All Sports",Jordan Sport
+http://93.184.10.248/JordanSport/index.m3u8
+#EXTINF:-1 tvg-id="0" tvg-logo="" group-title="All Sports",Motor Vision
+https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=1677
+#EXTINF:-1 tvg-id="0" tvg-logo="" group-title="All Sports",Canal Motor
+https://digicom.hls.iptvdc.com/motorstv/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="0" tvg-logo="" group-title="All Sports",Mister Motor
+https://30a-tv.com/feeds/720p/54.m3u8
+#EXTINF:-1 tvg-id="0" tvg-logo="" group-title="All Sports",Real Madrid
+https://rmtv.akamaized.net/hls/live/2043153/rmtv-es-web/bitrate_3.m3u8
+#EXTINF:-1 tvg-id="0" tvg-logo="http://widget.ottplayer.tv/upictures/2f352622-1402-40ce-b20b-92140cef2786.png" group-title="All Sports",Al Iraqia Sport
+https://imn-live.esite-lab.com/hls/iraqia-sports-1.m3u8
+#EXTINF:-1 tvg-id="0" tvg-logo="" group-title="All Sports",Persiana Sports 2
+https://pepsi.abntv.live/hls/4spstream.m3u8?checkedby:halabja88
+#EXTINF:-1 tvg-id="0" tvg-logo="" group-title="All Sports",Alkass One
+https://liveeu-gcp.alkassdigital.net/alkass1-p/main.m3u8
+#EXTINF:-1 tvg-id="0" tvg-logo="" group-title="All Sports",Alkass Two
+https://liveeu-gcp.alkassdigital.net/alkass2-p/main.m3u8
+#EXTINF:-1 tvg-id="0" tvg-logo="" group-title="All Sports",Alkass Three
+https://liveeu-gcp.alkassdigital.net/alkass3-p/main.m3u8
+#EXTINF:-1 tvg-id="0" tvg-logo="" group-title="All Sports",Alkass Four
+https://liveeu-gcp.alkassdigital.net/alkass4-p/main.m3u8
+#EXTINF:-1 tvg-id="0" tvg-logo="http://widget.ottplayer.tv/upictures/371e80c4-1bad-4c02-a51d-789f1323f5d3.png" group-title="SPORTS",BEIN SPORTS 1 iQ
+https://stream.supertv.gg:3001/supertv/sport/stv1/ch1/adaptive.m3u8
+#EXTINF:-1 tvg-id="0" tvg-logo="http://widget.ottplayer.tv/upictures/e80c01d5-4729-43de-a84b-92b2fb647826.png" group-title="SPORTS",BEIN SPORTS 2 iQ
+https://stream.supertv.gg:3002/supertv/sport/stv2/ch2/ch2_1080.m3u8
+#EXTINF:-1 tvg-id="0" tvg-logo="http://widget.ottplayer.tv/upictures/b3421322-c095-4b90-a8de-47fb1e15957d.png" group-title="SPORTS",BEIN SPORTS 3 iQ
+https://stream.supertv.gg:3003/supertv/sport/stv3/ch3/ch3_1080.m3u8
+#EXTINF:-1 tvg-id="0" tvg-logo="http://widget.ottplayer.tv/upictures/62cfda41-cb5c-4548-9a70-8861956afd65.png" group-title="SPORTS",BEIN SPORTS 4 iQ
+https://stream.supertv.gg:3004/supertv/sport/stv4/ch4/ch4_1080.m3u8
+#EXTINF:-1 tvg-id="0" tvg-logo="http://widget.ottplayer.tv/upictures/8453e7f6-5dcf-46ea-b0fc-0e93f67a7d39.png" group-title="SPORTS",BEIN SPORTS 5 iQ
+https://stream.supertv.gg:3005/supertv/sport/stv5/ch5/ch5_1080.m3u8
+#EXTINF:-1 tvg-id="0" tvg-logo="http://widget.ottplayer.tv/upictures/8ad664a3-373b-4ac4-ab3b-32a23c6d4202.png" group-title="SPORTS",BEIN SPORTS 6 iQ
+https://stream.supertv.gg:3006/supertv/sport/stv6/ch6/ch6_1080.m3u8
+#EXTINF:-1 tvg-id="0" tvg-logo="http://widget.ottplayer.tv/upictures/bd6245a4-cadd-45bb-9f1d-2768621b5a9d.png" group-title="Russian Sports",Матч ТВ
+http://tv.tuva.ru/machtv/index.m3u8
+#EXTINF:-1 tvg-id="21978" tvg-logo="http://widget.ottplayer.tv/upictures/b7464363-63ee-4a35-b010-d98ed66f40f6.png" group-title="Russian Sports",Tr VPN SPORT 1
+http://stream-msk-14.ott.tricolor.tv/dtv/id794_MSKSG-PVR-1--Nash_khokkey1/01/plst.m3u8
+#EXTINF:-1 tvg-id="21979" tvg-logo="http://widget.ottplayer.tv/upictures/faee4fa4-95d8-48c9-aec8-47a1581fbd25.png" group-title="Russian Sports",Tr VPN SPORT 2
+http://stream-msk-07.ott.tricolor.tv/dtv/id732_MSKSG-PVR-1--Nash_khokkey2/03/plst.m3u8
+#EXTINF:-1 tvg-id="0" tvg-logo="" group-title="All Sports",HORSE
+https://hncfree-samsung-uk.amagi.tv/playlist720-p.m3u8
+#EXTINF:-1 tvg-id="0" tvg-logo="" group-title="All Sports",REDBULL
+https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_3360.m3u8
+#EXTINF:-1 tvg-id="0" tvg-logo="" group-title="All Sports",Garage TV Latin America
+https://stream1.sersat.com/hls/garagetv.m3u8
+#EXTINF:-1 tvg-id="98" tvg-logo="http://widget.ottplayer.tv/pictures/98.png" group-title="All Sports",Авто Плюс
+http://31.148.48.15/Avto_Plus/index.m3u8
+#EXTINF:-1 tvg-id="0" tvg-logo="" group-title="All Sports",EXTREME
+http://stream.mcquack.net/148/index.m3u8
+#EXTINF:-1 tvg-id="0" tvg-logo="http://widget.ottplayer.tv/upictures/c5b1dd68-721f-4414-82af-7ef69150429b.png" group-title="SPORTS",BEIN SPORTS 1
+http://h50.baseflow.online/live/918454578001/index.m3u8
+#EXTINF:-1 tvg-id="0" tvg-logo="http://widget.ottplayer.tv/upictures/1995de30-7332-4ae2-b899-2d06dc827299.png" group-title="SPORTS",BEIN SPORTS 2
+http://h50.baseflow.online/live/69854211/index.m3u8
+#EXTINF:-1 tvg-id="0" tvg-logo="http://widget.ottplayer.tv/upictures/e01ee684-5fbc-4afb-925f-60a16c818998.png" group-title="SPORTS",BEIN SPORTS 3 
+http://h50.baseflow.online/live/645587700/index.m3u8
+#EXTINF:-1 tvg-id="0" tvg-logo="http://widget.ottplayer.tv/upictures/26e61fd1-b9f6-44fd-b3b3-39d7d553a984.png" group-title="SPORTS",BEIN SPORTS 4
+http://h50.baseflow.online/live/9787488847/index.m3u8
+#EXTINF:-1 tvg-id="0" tvg-logo="http://widget.ottplayer.tv/upictures/104d66af-85a6-4f40-9835-e43c6ea9e9a0.png" group-title="SPORTS",BEIN SPORTS 5 
+http://h50.baseflow.online/live/610303030/index.m3u8
+#EXTINF:-1 tvg-id="0" tvg-logo="http://widget.ottplayer.tv/upictures/0ceae047-5a6f-42e5-a068-42f2c5bf99f6.png" group-title="ALWAN SPORTS",ALWAN SPORTS HD 1
+http://myserveriptv.com:2082/live/worldiptv/4Msg26dsjoF5wKD9yd7/229224.ts
+#EXTINF:-1 tvg-id="0" tvg-logo="http://widget.ottplayer.tv/upictures/791181cb-cd43-44bf-ae2d-7ccb92578da4.png" group-title="ALWAN SPORTS",ALWAN SPORTS HD 2
+http://myserveriptv.com:2082/live/worldiptv/4Msg26dsjoF5wKD9yd7/248594.ts
+#EXTINF:-1 tvg-id="0" tvg-logo="http://widget.ottplayer.tv/upictures/84cd8b66-e07f-4bda-aa85-4a457988d367.png" group-title="ALWAN SPORTS",ALWAN SPORTS HD 3
+http://myserveriptv.com:2082/live/worldiptv/4Msg26dsjoF5wKD9yd7/301199.ts
+#EXTINF:-1 tvg-id="0" tvg-logo="http://widget.ottplayer.tv/upictures/df8e9fde-9b4a-4794-8a50-7cd1bb028d1f.png" group-title="ALWAN SPORTS",ALWAN SPORTS HD 4
+http://stream.mcquack.net/72/index.m3u8
+#EXTINF:-1 tvg-id="0" tvg-logo="http://widget.ottplayer.tv/upictures/21307b54-4f71-4458-bf36-c37f941ed9e1.png" group-title="ALWAN SPORTS",ALWAN SPORTS HD 5
+http://189.76.71.35:8555/live/cdn_stonetv/cdn_stonetv/1080.m3u8
+#EXTINF:-1 tvg-id="0" tvg-logo="http://widget.ottplayer.tv/upictures/04f32025-feeb-434c-a2d2-2b49fe8a1e4d.png" group-title="ALWAN SPORTS",ALWAN SPORTS HD 6
+http://189.76.71.35:8555/live/cdn_stonetv/cdn_stonetv/1079.m3u8
+#EXTINF:-1 tvg-id="0" tvg-logo="http://widget.ottplayer.tv/upictures/aaafbee1-65e4-4495-b742-f7781b1247e0.png" group-title="SPORTS",BEIN SPORTS 1 iQ
+https://stream.supertv.gg:3001/supertv/sport/stv1/ch1/ch1_720.m3u8
+#EXTINF:-1 tvg-id="0" tvg-logo="http://widget.ottplayer.tv/upictures/7b4158b2-0c69-4e69-8c1c-26f7038a6220.png" group-title="SPORTS",BEIN SPORTS 2 iQ
+https://stream.supertv.gg:3002/supertv/sport/stv2/ch2/ch2_720.m3u8
+#EXTINF:-1 tvg-id="0" tvg-logo="http://widget.ottplayer.tv/upictures/260fd749-9a90-4f02-927a-2d53ad45ec99.png" group-title="SPORTS",BEIN SPORTS 3 iQ
+https://stream.supertv.gg:3003/supertv/sport/stv3/ch3/ch3_720.m3u8
+#EXTINF:-1 tvg-id="0" tvg-logo="http://widget.ottplayer.tv/upictures/15e41e23-2307-40b5-bbf3-6d23de82d4c8.png" group-title="SPORTS",BEIN SPORTS 4 iQ
+https://stream.supertv.gg:3004/supertv/sport/stv4/ch4/ch4_720.m3u8
+#EXTINF:-1 tvg-id="0" tvg-logo="http://widget.ottplayer.tv/upictures/a4168a34-a7fc-4720-86c0-0f878f5ba627.png" group-title="SPORTS",BEIN SPORTS 5 iQ
+https://stream.supertv.gg:3005/supertv/sport/stv5/ch5/ch5_720.m3u8
+#EXTINF:-1 tvg-id="0" tvg-logo="http://widget.ottplayer.tv/upictures/83067668-0468-455f-b6b9-2373786976f1.png" group-title="SPORTS",BEIN SPORTS 6 iQ
+https://stream.supertv.gg:3006/supertv/sport/stv6/ch6/ch6_720.m3u8
+#EXTINF:-1 tvg-id="0" tvg-logo="" group-title="All Sports",BEK Sports
+https://cdn3.wowza.com/5/ZWQ1K2NYTmpFbGsr/BEK-WOWZA-1/smil:BEKPRIMEW.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="0" tvg-logo="" group-title="MIX SPORTS",Sportv 1 
+http://88.212.15.19/live/test_sport1_25p/playlist.m3u8
+#EXTINF:-1 tvg-id="0" tvg-logo="" group-title="MIX SPORTS",Sportv 2
+http://88.212.15.19/live/test_sport_2/playlist.m3u8
+#EXTINF:-1 tvg-id="0" tvg-logo="" group-title="All Sports",Oman Sports
+https://partneta.cdn.mgmlcdn.com/omsport/smil:omsport.stream.smil/chunklist.m3u8
+#EXTINF:-1 tvg-id="0" tvg-logo="" group-title="All Sports",Golf Channel
+http://23.237.104.106:8080/USA_GOLF/index.m3u8
+#EXTINF:-1 tvg-id="0" tvg-logo="http://widget.ottplayer.tv/upictures/67c28402-ef04-4749-8aa5-c134f67a5afd.png" group-title="All Sports",BBC Top Gear
+https://amg00793-bbcstudios-amg00793c4-lg-us-2527.playouts.now.amagi.tv/playlist/amg00793-bbcstudios-bbctopgear8min-lgus/playlist.m3u8
+#EXTINF:-1 tvg-id="0" tvg-logo="" group-title="All Sports",Strong Mans Champion League
+https://rightsboosterltd-scl-1-gb.lg.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="0" tvg-logo="" group-title="All Sports",X STREAM
+http://iptv.prosto.tv:7000/ch313/video.m3u8?secret=pafoa7eu
+#EXTINF:-1 tvg-id="0" tvg-logo="" group-title="All Sports",TUDUN SPORTS
+http://177.10.184.60:8002/play/a013
+#EXTINF:-1 tvg-id="0" tvg-logo="" group-title="All Sports",30A Golf Kingdom
+https://30a-tv.com/feeds/720p/53.m3u8
+#EXTINF:-1 tvg-id="0" tvg-logo="" group-title="All Sports",Infosport
+http://99.27.51.147:8080/Infosport/index.m3u8
+#EXTINF:-1 tvg-id="0" tvg-logo="" group-title="All Sports",TRACE SPORTS
+https://lightning-tracesport-samsungau.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="21981" tvg-logo="http://widget.ottplayer.tv/pictures/21981.png" group-title="SPORTS",BEIN SPORTS 6
+http://h50.baseflow.online/live/1515000000/index.m3u8
+#EXTINF:-1 tvg-id="0" tvg-logo="" group-title="MIX SPORTS",Dazn 1
+http://50.7.120.34:8080/DAZN1/index.m3u8
+#EXTINF:-1 tvg-id="0" tvg-logo="" group-title="MIX SPORTS",Dazn 2
+http://23.237.104.106:8080/DAZN_2/index.m3u8
+#EXTINF:-1 tvg-id="0" tvg-logo="" group-title="All Sports",Onile Sports
+http://185.221.213.254:8080/Okko/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="644" tvg-logo="http://widget.ottplayer.tv/pictures/644.png" group-title="MIX SPORTS",Матч ТВ
+http://46.32.176.50/matchtv/index.m3u8
