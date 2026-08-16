@@ -2,3 +2,5 @@
 *.py
 *.json
 __pycache__/
+cloudflare_worker_code.js
+movies_embed.html

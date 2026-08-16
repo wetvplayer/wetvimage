@@ -33,7 +33,7 @@ py web_player_preview.py sports_github.m3u
 
 ---
 
-## Free Movie & VOD Uploaders
+## Free Movie & Video Uploaders
 
 ### Option A: Pixeldrain (Up to 10 GB per Movie)
 Fastest direct MP4 streaming links with high bandwidth:
@@ -46,11 +46,47 @@ py upload_pixeldrain.py "C:\Movies\Inception.mp4" "Inception (2010)" "Sci-Fi"
 py upload_pixeldrain.py --folder "C:\Movies" "Action Movies"
 ```
 
-*(First time you run it, you can enter your free API key from [pixeldrain.com/user/api_keys](https://pixeldrain.com/user/api_keys))*
+---
+
+### Option C: DoodStream (The #1 Video Embed Platform)
+Unlimited movie storage, automatic multi-quality transcoding, and responsive iframe embeds:
+
+```powershell
+# Upload a local movie:
+py upload_doodstream.py "C:\Movies\Inception.mp4" "Inception (2010)" "Sci-Fi"
+
+# Remote upload from web link (0 PC bandwidth):
+py upload_doodstream.py --remote "https://example.com/video.mp4" "Movie Title" "Movies"
+```
+
+*(First time you run it, you can enter your free API key from [doodstream.com/api](https://doodstream.com/api))*
 
 ---
 
-### Option B: Archive.org (Unlimited Permanent Storage)
+### Option D: Streamtape (Unlimited Video Storage & Remote URL Upload)
+Supports uploading direct from your PC or remote URLs without downloading first:
+
+```powershell
+# Upload local movie:
+py upload_streamtape.py "C:\Movies\Inception.mp4" "Inception (2010)" "Sci-Fi"
+```
+
+---
+
+### Option E: Universal Stream Extractor (Powered by yt-dlp)
+Convert ANY online video or live stream (YouTube, Twitch, Facebook, VK, web videos) directly into `.m3u` stream links:
+
+```powershell
+# 1. Extract direct stream & thumbnail logo straight into movies.m3u:
+py universal_stream_extractor.py "https://www.youtube.com/watch?v=VIDEO_ID"
+
+# 2. Extract web video and push permanently to Pixeldrain:
+py universal_stream_extractor.py --upload-pixeldrain "https://www.youtube.com/watch?v=VIDEO_ID" "Action Movies"
+```
+
+---
+
+### Option F: Archive.org (Unlimited Permanent Storage)
 Permanent S3-backed movie storage:
 
 ```powershell
