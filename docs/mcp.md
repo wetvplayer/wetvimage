@@ -107,7 +107,37 @@ py mcp/assign_all_bouquets_to_line.py
 
 ---
 
-## 6. Core Architecture: Line vs User
+## 6. Removing & Deleting Items (`mcp/remove_from_mcp.py`)
+
+Tools to safely delete categories, bouquets, or entire playlists from the server:
+
+### Option A: Delete a Category & Its Channels
+```powershell
+# Delete category by name or ID:
+py mcp/remove_from_mcp.py --category "Old Category"
+py mcp/remove_from_mcp.py --category 111
+```
+
+### Option B: Delete a Bouquet
+```powershell
+# Deletes the bouquet and automatically detaches it from all Lines and Packages:
+py mcp/remove_from_mcp.py --bouquet "Old Bouquet"
+```
+
+### Option C: Delete All Channels from a Playlist
+```powershell
+# Deletes all server channels that match the stream URLs in a playlist:
+py mcp/remove_from_mcp.py --playlist "playlists/old_playlist.m3u"
+```
+
+### Option D: Clean Up Empty Categories (0 Channels)
+```powershell
+py mcp/remove_from_mcp.py --clean-empty
+```
+
+---
+
+## 7. Core Architecture: Line vs User
 
 | Concept | Purpose | Where Managed | Examples |
 | :--- | :--- | :--- | :--- |
@@ -116,3 +146,4 @@ py mcp/assign_all_bouquets_to_line.py
 
 > [!NOTE]
 > Channels and bouquets are assigned to **Lines** so the IPTV player application receives the channel playlist. Our tooling supports `--line` and `--user` interchangeably.
+
