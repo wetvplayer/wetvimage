@@ -4,6 +4,15 @@ Automated toolkit to discover missing channel logos, download & host them on Git
 
 ---
 
+## 📚 Detailed Documentation
+
+- 🎬 [**Movies & VOD Documentation**](file:///c:/Users/kadan/Desktop/halabja88/docs/movies.md) — Video uploaders (Pixeldrain, DoodStream, Streamtape), yt-dlp extractor, video formats & embeds.
+- 📺 [**Live TV & Logo CDN Documentation**](file:///c:/Users/kadan/Desktop/halabja88/docs/live.md) — Auto logo discovery from iptv-org, jsDelivr CDN hosting, auto git push & web player.
+- ⚡ [**MyTVPro MCP Server Documentation**](file:///c:/Users/kadan/Desktop/halabja88/docs/mcp.md) — MCP JSON-RPC automation, custom category & bouquet creation, Line vs User permissions, and batch updates.
+
+---
+
+
 ## 🚀 Quick Start: Logo Sync & GitHub CDN Upload
 
 To automatically scan your playlist, auto-find missing channel logos from the global IPTV database, download them, and push them to GitHub CDN:
