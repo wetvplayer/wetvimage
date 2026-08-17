@@ -4,3 +4,9 @@
 __pycache__/
 cloudflare_worker_code.js
 movies_embed.html
+*.mp4
+*.mkv
+*.ts
+*.avi
+*.mov
+*.webm
