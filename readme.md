@@ -51,13 +51,22 @@ py scripts/web_player_preview.py playlists/sports_github.m3u
 
 Tools to synchronize categories, bouquets, and channels directly with your IPTV CMS:
 
-### 1. Upload Playlist & Create Bouquets
+### 1. Upload Playlist, Update CDN Logos, Category, Bouquet & User Lines
+Use `mcp/upload_to_mcp.py` to upload channels, update matching streams with your GitHub CDN logo images, and assign them to custom categories, bouquets, and user lines:
+
 ```powershell
-py mcp/upload_sports_mcp.py
+# Default upload (Uses CDN playlist, All Sports category & bouquet, assigns to user 123 and all VIP packages)
+py mcp/upload_to_mcp.py
+
+# Custom Category, Bouquet, and User Line:
+py mcp/upload_to_mcp.py --m3u playlists/sports_github.m3u --category "Sports HD" --bouquet "Sports VIP" --user "123"
+
+# Assign to ALL active users / lines:
+py mcp/upload_to_mcp.py --m3u playlists/sports_github.m3u --category "All Sports" --bouquet "All Sports" --user all
+
+# Specify custom playlist file:
+py mcp/upload_to_mcp.py --m3u playlists/my_custom.m3u --category "My Category" --bouquet "My Bouquet" --user "123"
 ```
-- Imports live channels into MyTVPro.
-- Creates `All Sports` category and bouquet.
-- Automatically assigns channels and links bouquets to all VIP packages and user lines.
 
 ### 2. Merge All Categories into Single "All Sports"
 ```powershell
@@ -68,6 +77,7 @@ py mcp/merge_all_sports.py
 ```powershell
 py mcp/list_categories.py
 ```
+
 
 ---
 
