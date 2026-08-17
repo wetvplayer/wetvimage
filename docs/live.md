@@ -50,7 +50,33 @@ https://cdn.jsdelivr.net/gh/wetvplayer/wetvimage@main/logos/<channel_name>_<hash
 
 ---
 
-## 3. Web Player & Stream Dashboard (`scripts/web_player_preview.py`)
+## 3. Custom Channel Logos (`scripts/set_channel_logo.py`)
+
+If you have your own custom image files for specific channels (e.g. Kurdish channels, local channels, custom sports feeds):
+
+### Option A: Set a Logo for a Single Channel
+```powershell
+# Format: py scripts/set_channel_logo.py "<Channel Name>" "<Path to Image>"
+py scripts/set_channel_logo.py "NRT SPORTS" "C:\Users\kadan\Desktop\nrt.png"
+py scripts/set_channel_logo.py "beIN SPORTS 1" "C:\Images\bein1.png"
+```
+**What this does automatically**:
+1. Copies the image to `logos/` with a sanitized filename.
+2. Pushes the image to GitHub repository (`wetvplayer/wetvimage`).
+3. Generates the jsDelivr CDN link (`https://cdn.jsdelivr.net/gh/wetvplayer/wetvimage@main/logos/<file>.png`).
+4. Updates the channel's logo on MyTVPro MCP server.
+5. Updates the local `.m3u` playlist.
+
+### Option B: Batch Upload a Folder of Custom Logos
+If you have a folder of logos named after the channels (e.g. `Rudaw.png`, `Kurdistan24.png`, `Alkass.png`):
+```powershell
+py scripts/set_channel_logo.py --folder "C:\Users\kadan\Desktop\my_channel_logos"
+```
+
+---
+
+## 4. Web Player & Stream Dashboard (`scripts/web_player_preview.py`)
+
 
 Preview your channels, check stream latency, test video playback, and inspect logo rendering directly in your browser without needing external player apps:
 
