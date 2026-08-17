@@ -4,6 +4,8 @@ configs/
 playlists/
 cache/
 templates/
+krdtv_mcp/
+
 *.m3u
 *.py
 *.json
