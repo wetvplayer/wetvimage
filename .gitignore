@@ -1,10 +1,16 @@
-# Playlists & Scripts
+# Tooling Folders & Local Assets
+scripts/
+configs/
+playlists/
+cache/
+templates/
 *.m3u
 *.py
 *.json
 __pycache__/
 cloudflare_worker_code.js
 movies_embed.html
+
 
 # Movies & Video formats
 *.mp4
