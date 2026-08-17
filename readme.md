@@ -1,104 +1,140 @@
-# IPTV Auto-Sync & Logo Matcher
+# IPTV Auto-Sync, CDN Logo Hosting & MCP Manager
 
-Automated tool to download existing channel logos, auto-discover missing logos from the global IPTV database, host them on GitHub via jsDelivr CDN, and output a clean updated `.m3u` playlist.
-
----
-
-## Quick Start (All-in-One Command)
-
-To process your default playlist (`sports.m3u`), auto-fill missing logos, update the playlist, and automatically push new images to GitHub:
-
-```powershell
-py sync_logos.py
-```
-
-### For Any Other M3U File:
-```powershell
-py sync_logos.py my_playlist.m3u
-# Or specify custom output name:
-py sync_logos.py my_playlist.m3u output_playlist.m3u
-```
+Automated toolkit to discover missing channel logos, download & host them on GitHub via jsDelivr CDN, preview streams with a built-in web player, and synchronize playlists directly with MyTVPro MCP.
 
 ---
 
-## Web Player & Stream Dashboard
+## 🚀 Quick Start: Logo Sync & GitHub CDN Upload
 
-To visually preview your channel logos, filter by category, and play/test streams directly in your browser:
+To automatically scan your playlist, auto-find missing channel logos from the global IPTV database, download them, and push them to GitHub CDN:
 
 ```powershell
-py web_player_preview.py
-# Or preview a specific playlist:
-py web_player_preview.py sports_github.m3u
+# Default: Processes playlists/sports.m3u -> generates playlists/sports_github.m3u
+py scripts/sync_logos.py
 ```
+
+### For Any Other Custom M3U Playlist:
+```powershell
+# Specify input playlist:
+py scripts/sync_logos.py playlists/my_playlist.m3u
+
+# Specify input and custom output name:
+py scripts/sync_logos.py playlists/my_playlist.m3u playlists/my_output.m3u
+```
+
+### How the Logo Sync Works:
+1. **Auto-Discovery**: Scans all `#EXTINF:` entries for missing logos (`tvg-logo=""`) and matches them against **48,000+ indexed channels** from `iptv-org`.
+2. **Local Download**: Downloads high-resolution icons to the local `logos/` folder with unique hashes to prevent collisions.
+3. **jsDelivr CDN Hosting**: Rewrites all logo URLs to high-speed, 100% uptime CDN links:
+   ```
+   https://cdn.jsdelivr.net/gh/wetvplayer/wetvimage@main/logos/<channel_name>_<hash>.png
+   ```
+4. **Auto Git Push**: Automatically stages, commits, and pushes new images to the `wetvplayer/wetvimage` repository on GitHub.
 
 ---
 
-## Free Movie & Video Uploaders
+## 🌐 Web Player & Stream Preview Dashboard
 
-### Option A: Pixeldrain (Up to 10 GB per Movie)
-Fastest direct MP4 streaming links with high bandwidth:
-
-```powershell
-# Upload a single movie
-py upload_pixeldrain.py "C:\Movies\Inception.mp4" "Inception (2010)" "Sci-Fi"
-
-# Upload an entire folder of movies at once:
-py upload_pixeldrain.py --folder "C:\Movies" "Action Movies"
-```
-
----
-
-### Option C: DoodStream (The #1 Video Embed Platform)
-Unlimited movie storage, automatic multi-quality transcoding, and responsive iframe embeds:
+Test streams, inspect logos, and preview channels directly in your browser:
 
 ```powershell
-# Upload a local movie:
-py upload_doodstream.py "C:\Movies\Inception.mp4" "Inception (2010)" "Sci-Fi"
+# Preview default sports playlist
+py scripts/web_player_preview.py
 
-# Remote upload from web link (0 PC bandwidth):
-py upload_doodstream.py --remote "https://example.com/video.mp4" "Movie Title" "Movies"
-```
-
-*(First time you run it, you can enter your free API key from [doodstream.com/api](https://doodstream.com/api))*
-
----
-
-### Option D: Streamtape (Unlimited Video Storage & Remote URL Upload)
-Supports uploading direct from your PC or remote URLs without downloading first:
-
-```powershell
-# Upload local movie:
-py upload_streamtape.py "C:\Movies\Inception.mp4" "Inception (2010)" "Sci-Fi"
+# Or preview any specific M3U playlist:
+py scripts/web_player_preview.py playlists/sports_github.m3u
 ```
 
 ---
 
-### Option E: Universal Stream Extractor (Powered by yt-dlp)
-Convert ANY online video or live stream (YouTube, Twitch, Facebook, VK, web videos) directly into `.m3u` stream links:
+## ⚡ MyTVPro MCP Automation
 
+Tools to synchronize categories, bouquets, and channels directly with your IPTV CMS:
+
+### 1. Upload Playlist & Create Bouquets
 ```powershell
-# 1. Extract direct stream & thumbnail logo straight into movies.m3u:
-py universal_stream_extractor.py "https://www.youtube.com/watch?v=VIDEO_ID"
+py mcp/upload_sports_mcp.py
+```
+- Imports live channels into MyTVPro.
+- Creates `All Sports` category and bouquet.
+- Automatically assigns channels and links bouquets to all VIP packages and user lines.
 
-# 2. Extract web video and push permanently to Pixeldrain:
-py universal_stream_extractor.py --upload-pixeldrain "https://www.youtube.com/watch?v=VIDEO_ID" "Action Movies"
+### 2. Merge All Categories into Single "All Sports"
+```powershell
+py mcp/merge_all_sports.py
+```
+
+### 3. List All Categories & Channel Counts
+```powershell
+py mcp/list_categories.py
 ```
 
 ---
 
-### Option F: Archive.org (Unlimited Permanent Storage)
-Permanent S3-backed movie storage:
+## 🎬 Free Movie & Video Uploaders
 
+### Option A: Pixeldrain (Up to 10 GB per Video)
+Fast direct MP4 streaming links:
 ```powershell
-py upload_movies.py "C:\path\to\movie.mp4" "Spider-Man 2002" "Action Movies"
+# Single movie
+py scripts/upload_pixeldrain.py "C:\Movies\Movie.mp4" "Movie Title (2024)" "Action"
+
+# Entire folder
+py scripts/upload_pixeldrain.py --folder "C:\Movies" "Movies"
+```
+
+### Option B: DoodStream (Unlimited Storage & Embeds)
+```powershell
+# Local movie upload
+py scripts/upload_doodstream.py "C:\Movies\Movie.mp4" "Movie Title" "Movies"
+
+# Remote URL upload (zero local bandwidth)
+py scripts/upload_doodstream.py --remote "https://example.com/video.mp4" "Movie Title" "Movies"
+```
+
+### Option C: Streamtape (Direct & Remote Upload)
+```powershell
+py scripts/upload_streamtape.py "C:\Movies\Movie.mp4" "Movie Title" "Movies"
+```
+
+### Option D: Universal Stream Extractor (yt-dlp powered)
+Extract direct stream URLs and thumbnails from YouTube, Twitch, Facebook, VK, and web video pages:
+```powershell
+# Extract stream and thumbnail directly into playlists/movies.m3u:
+py scripts/universal_stream_extractor.py "https://www.youtube.com/watch?v=VIDEO_ID"
+
+# Extract and push video to Pixeldrain:
+py scripts/universal_stream_extractor.py --upload-pixeldrain "https://www.youtube.com/watch?v=VIDEO_ID" "Action"
 ```
 
 ---
 
-## Features
+## 📁 Directory Structure
 
-1. **Auto-Discovery for Missing Logos**: Automatically searches channels with empty `tvg-logo=""` against 48,000+ indexed channels (from iptv-org) and fills them in.
-2. **Global jsDelivr CDN Hosting**: All logos are served with 100% uptime and speed:
-   `https://cdn.jsdelivr.net/gh/wetvplayer/wetvimage@main/logos/<filename>.png`
-3. **One-Click Auto Git Push**: Automatically stages, commits, and pushes only the new image files to `wetvplayer/wetvimage` on GitHub.
-4. **Clean Git Tracking**: `.m3u` playlist files and temporary scripts are excluded via `.gitignore` so your public repository contains only the clean image assets.
+```
+halabja88/
+├── cache/                  # Database & logo cache files
+│   ├── iptv_db_cache.json
+│   └── logo_cache.json
+├── configs/                # API credentials & service configurations
+│   ├── doodstream_config.json
+│   ├── pixeldrain_config.json
+│   └── streamtape_config.json
+├── logos/                  # CDN channel logo assets (tracked in Git)
+│   └── *.png
+├── mcp/                    # MCP synchronization scripts & bouquet tools
+│   ├── upload_sports_mcp.py
+│   ├── merge_all_sports.py
+│   └── list_categories.py
+├── playlists/              # Local M3U playlists
+│   ├── sports.m3u          # Source playlist
+│   ├── sports_github.m3u   # CDN-linked playlist
+│   └── movies.m3u
+├── scripts/                # Automation utilities & uploaders
+│   ├── sync_logos.py       # Core logo sync & GitHub CDN pusher
+│   ├── web_player_preview.py
+│   └── upload_*.py
+├── templates/              # Web player templates & embed code
+├── .gitignore              # Clean Git ignore rules (only logos are tracked)
+└── readme.md               # User guide & documentation
+```
