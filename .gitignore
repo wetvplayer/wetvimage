@@ -1,12 +1,47 @@
+# Playlists & Scripts
 *.m3u
 *.py
 *.json
 __pycache__/
 cloudflare_worker_code.js
 movies_embed.html
+
+# Movies & Video formats
 *.mp4
 *.mkv
 *.ts
 *.avi
 *.mov
 *.webm
+*.flv
+*.wmv
+*.m4v
+*.3gp
+*.vob
+*.iso
+*.m2ts
+movies/
+Movies/
+videos/
+Videos/
+*.srt
+*.vtt
+*.sub
+
+# Images & Media cache (Preserve logos/)
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.ico
+*.svg
+*.webp
+*.png
+thumbnails/
+images/
+screenshots/
+
+# Whitelist channel logos directory for CDN hosting
+!logos/
+!logos/**
+
